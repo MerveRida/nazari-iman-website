@@ -1,0 +1,29 @@
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.store-buttons a img {
+    width: 160px; /* Adjust size of buttons */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.store-buttons a img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+.background-force {
+    background-image: none !important; /* Remove the background image */
+    background-color: transparent; /* Ensure there's no background color either */
+}
+
+img { 
+    padding-top: 3%;
+}
+
+video {
+    padding-top: 3%;
+}
